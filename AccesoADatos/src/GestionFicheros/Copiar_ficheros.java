@@ -10,17 +10,25 @@ public class Copiar_ficheros {
 
 	public static void main(String[] args) {
 		
-		String RutaOrigen="C:\\Users\\David\\Desktop\\carpetaAcceso\\origen\\calendario.docx";
+		/*
+		 * copiamos la ruta del archivo que queremos copiar
+		 */
 		
-		String RutaDestino="C:\\Users\\David\\Desktop\\carpetaAcceso\\destino";
+		String RutaOrigen="‪‪src/origen.txt";
+		
+		
+		//seleccionamos la ruta de destino
+		
+		String RutaDestino="src/destino.txt";
 		
 		Path origen=Paths.get(RutaOrigen);
 		
 		try {
 			Path ejemploOrigen=Files.createFile(origen);
+			
 		} catch (IOException e) {
 			
-			// TODO Bloque catch generado autom�ticamente
+			// TODO Bloque catch generado automáticamente
 			
 			e.printStackTrace();
 		}
@@ -37,7 +45,7 @@ public class Copiar_ficheros {
 		try {
 			Files.copy(origen, destino, StandardCopyOption.REPLACE_EXISTING);
 		} catch (IOException e) {
-			// TODO Bloque catch generado autom�ticamente
+			// TODO Bloque catch generado automáticamente
 			e.printStackTrace();
 		}
 

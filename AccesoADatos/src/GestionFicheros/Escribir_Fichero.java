@@ -23,7 +23,12 @@ class Escribiendo{
 		
 		try {
 			
-			FileWriter escritura=new FileWriter("C:/Users/David/Desktop/CarpetaAcceso/Prueba_Escritura.txt");
+			/*
+			 * Si especificamos la ruta "src/..." se creara en la carpeta del proyecto 
+			 * y asi sera portable cuando se exporte el proyecto
+			 */
+			
+			FileWriter escritura=new FileWriter("src/Prueba_Escritura.txt");
 			
 			     /*Creamos un bucle for que recorra todos los caracteres de la frase 
 			      * y los gurada dentro de una bariable i

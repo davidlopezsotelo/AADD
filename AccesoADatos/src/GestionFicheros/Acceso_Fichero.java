@@ -14,7 +14,7 @@ class Leer_Fichero{
 		              /*creamos instancia de la clase File Reader
 		            indicandole la ruta del archivo que queremos leer*/
 			
-			FileReader entrada = new FileReader("C:/Users/David/Desktop/carpetaAcceso/TextoPrueba.txt");
+			FileReader entrada = new FileReader("src/Prueba_Escritura.txt");
 		
 		           //creamos una variable "c", para almacenar el contenido del archivo	
 			

@@ -21,8 +21,7 @@ public class crearDirectorio {
 	
 	//CREA DIRECTORIO EN UNA CARPETA ESPECIFICA:
 		
-		File directorio=new File("C:"+File.separator+"Users"+File.separator+"David"+
-		File.separator+"Desktop"+File.separator+"carpetaAcceso" + File.separator + nDirectorio);
+		File directorio=new File( nDirectorio);
 		
 		directorio.mkdirs();
 		
@@ -30,8 +29,7 @@ public class crearDirectorio {
 		
    // CREACION DE ARCHIVO 
 		
-		File ruta_archivo=new File("C:"+File.separator+"Users"+File.separator+"David"+
-		File.separator+"Desktop"+File.separator+"carpetaAcceso" + File.separator + nDirectorio
+		File ruta_archivo=new File( nDirectorio
 		+File.separator+nArchivo+".txt");
 		
 	
@@ -41,8 +39,7 @@ public class crearDirectorio {
 			
 			//Escritura
 			
-			FileWriter escritura=new FileWriter("C:"+File.separator+"Users"+File.separator+"David"+
-					File.separator+"Desktop"+File.separator+"carpetaAcceso" + File.separator + nDirectorio
+			FileWriter escritura=new FileWriter( nDirectorio
 					+File.separator+nArchivo+".txt",true);
 			
 			for (int i=0;i<frase.length();i++) {

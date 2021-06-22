@@ -18,7 +18,7 @@ public class Pruebas_Path {
 		
 		System.out.println(archivo.getAbsolutePath());
 		
-		//comprobar si existe el archivo
+		//comprobar si existe el archivo "ejemplo archivo"
 		
 		System.out.println(archivo.exists());
 		
@@ -32,10 +32,11 @@ public class Pruebas_Path {
 		
 		/*
 		 * acceder al contenido de una carpeta
-		 * especifica
+		 * especifica.
+		 * puede variar segun la maquina donde se ejecute
 		 */
 		
-		File ruta =new File("C:\\Users\\David\\Desktop\\carpetaAcceso");
+		File ruta =new File("C:\\Users\\David-Pc\\git\\AADD\\AccesoADatos");
 		
 		System.out.println(ruta.getAbsolutePath());
 		
