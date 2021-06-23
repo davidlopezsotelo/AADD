@@ -10,6 +10,10 @@ public class PruebaConexionBBDD {
 		
 		//----PRIMER PASO: CONECTARSE A LA BASE DE DATOS---------------------------------------------------
 		
+		/*
+		 * revisar los datos de conexion en cada equipo que se ejecute.
+		 */
+		
 		String URL="jdbc:mysql://localhost:3306/m06?useSSL=false";
 		
 		String User="root";
