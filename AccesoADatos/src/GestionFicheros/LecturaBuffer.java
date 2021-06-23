@@ -17,7 +17,7 @@ class Leer_Buffer{
 		            indicandole la ruta del archivo que queremos leer*/
 			
 			
-			FileReader entrada = new FileReader("C:/Users/David/Desktop/carpetaAcceso/Texto_Largo.txt");
+			FileReader entrada = new FileReader("texto_largo.txt");
 			
 					// CREAMOS EL BUFFER
 					 
