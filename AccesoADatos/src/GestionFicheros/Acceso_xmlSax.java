@@ -20,7 +20,7 @@ public class Acceso_xmlSax {
 		SaxHelper handler = new SaxHelper();
 		
 		try {
-			saxParser.parse("C:\\Users\\David-Pc\\Desktop\\carpetaAcceso\\coches.xml", handler);
+			saxParser.parse("C:\\Users\\David-Pc\\git\\AADD\\AccesoADatos\\src\\GestionFicheros\\coches.xml", handler);
 		} catch (SAXException e) {
 
 			e.printStackTrace();

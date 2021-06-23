@@ -15,7 +15,7 @@ public class Acceso_xml {
 			//Src es el nombre raiz de nuestro proyecto, main es la primera capreta, resources la siguiente, dentro de xml encontraremos el fichero
 			//Esta es la ruta relativa.
 			
-			File arxXml = new File("sC:\\Users\\David-Pc\\git\\AADD\\AccesoADatos\\src\\GestionFicheros\\coches.xml");
+			File arxXml = new File("C:\\Users\\David-Pc\\git\\AADD\\AccesoADatos\\src\\GestionFicheros\\coches.xml");
 			
 			//Creamos los objetos que nos permitiran leer el fichero
 			
