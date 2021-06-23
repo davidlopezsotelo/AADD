@@ -65,7 +65,7 @@ public class PruebaConexionBBDD {
 				 * el resultset.
 				 */
 				
-                                             //nombre de la columna				
+                                             //nombre o indice de la columna				
 				System.out.println(miResulset.getString("idAlumno")+ " "+ miResulset.getString("nombre")+ " "+ miResulset.getString("edad"));
 				
 				
