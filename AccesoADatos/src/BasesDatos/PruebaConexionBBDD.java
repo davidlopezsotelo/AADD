@@ -11,7 +11,7 @@ public class PruebaConexionBBDD {
 		
 		String User="root";
 		
-		String Passs="1234";
+		String Passs="root";
 		
 
 		try {
