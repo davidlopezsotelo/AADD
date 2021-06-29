@@ -13,11 +13,13 @@ public class ConsultaPreparada {
 
 	public static void main(String[] args) {
 		
-		
+		System.out.println("Conectando con base de datos.");
 
 		try {
 			
 			//1. CREAR CONEXION--------------------------------
+			
+			
 			
 			String URL="jdbc:mysql://localhost:3306/m06?useSSL=false";	
 		    String User="root";
@@ -82,10 +84,8 @@ public class ConsultaPreparada {
 			e.printStackTrace();
 		}
 		
-		
-		
-
-		
 	}
 
 }
+//revisar, no funciona??????
+
