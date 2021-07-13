@@ -14,11 +14,11 @@ public class PruebaConexionBBDD {
 		 * revisar los datos de conexion en cada equipo que se ejecute.
 		 */
 		
-		String URL="jdbc:mysql://localhost:3306/m06?useSSL=false";
+		String URL="jdbc:mysql://localhost:3306/m06";
 		
 		String User="root";
 		
-		String Passs="root";
+		String Passs="1234";
 		
 
 		try {

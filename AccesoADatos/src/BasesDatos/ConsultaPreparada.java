@@ -7,13 +7,14 @@ import java.sql.*;
 
 
 public class ConsultaPreparada {
-	
+	//PC casa:
 	//base de datos : m06
-	//clave de base de datos = root
+	//usuario = root
+	//clave de base de datos = 1234
 
 	public static void main(String[] args) {
 		
-		System.out.println("Conectando con base de datos.");
+		System.out.println("Conectando con base de datos. Consulta preparada");
 
 		try {
 			
@@ -21,9 +22,9 @@ public class ConsultaPreparada {
 			
 			
 			
-			String URL="jdbc:mysql://localhost:3306/m06?useSSL=false";	
+			String URL="jdbc:mysql://localhost:3306/m06";	
 		    String User="root";
-		    String Passs="root";
+		    String Passs="1234";
 						
 			Connection miConexion=DriverManager.getConnection(URL, User, Passs);
 			

@@ -13,7 +13,7 @@ public class ModificaBBDD {
 		
 		String User="root";
 		
-		String Passs="root";
+		String Passs="1234";
 		
 
 		try {
